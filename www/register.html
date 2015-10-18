@@ -26,28 +26,31 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/signin.css" />
-        <title>Sign in</title>
+        <link rel="stylesheet" type="text/css" href="css/register.css" />
+        <title>Have an account Stylish</title>
     </head>
     <body>
         <div class="app">
             <h1>Stylish</h1>
-				<div class="loginForm">
-					<form id="loginForm">
+				<div class="registerForm">
+					<form id="registerForm">
 						<div>
-							<input type="text" name="username" id="username" value="" placeholder="Username" />
+							<input type="text" name="username" id="username" value="" placeholder="Preferred Username" />
 						</div>
 						<div>
-							<input type="password" name="password" id="password" value="" placeholder="Password" />
+							<input type="email" name="email" id="email" value="" placeholder="Preferred Email" />
 						</div>
 						<div>
-							<button type="button" name="signin" id="signin" onclick="alert('controls + signin ')"> Sign in </button>
+							<input type="password" name="password" id="password" value="" placeholder="Password Choosen" />
+						</div>
+						<div>
+							<button type="button" name="register" id="register" onclick="alert('controls + registration')"> Register </button>
 						</div>					
 					</form>		
 				</div>
 				<div>
-					<a href="./register.html">
-						Register
+					<a href="./signin.html">
+						I have an account
 					</a>
 				</div>
 				

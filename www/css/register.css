@@ -74,17 +74,17 @@ h1 {
 	text-transform:none;
 }
 
-form#loginForm>div {
+form#registerForm>div {
 	margin:0px auto 10px auto;
 	width:100%;
 }
 
-form#loginForm>div >div {
+form#registerForm>div >div {
 	height:auto;
 	width:auto;
 }
 
-form#loginForm button {
+form#registerForm button {
 	font-size:15px;
 	font-style:bold;
 	border-radius:5px;
@@ -94,7 +94,7 @@ form#loginForm button {
 	padding-right:auto;
 }
 
-form#loginForm input {
+form#registerForm input {
 	border-radius:5px;
 	font-size:15px;
 	font-style:bold;

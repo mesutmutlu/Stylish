@@ -73,32 +73,3 @@ h1 {
     text-align:center;
 	text-transform:none;
 }
-
-form#loginForm>div {
-	margin:0px auto 10px auto;
-	width:100%;
-}
-
-form#loginForm>div >div {
-	height:auto;
-	width:auto;
-}
-
-form#loginForm button {
-	font-size:15px;
-	font-style:bold;
-	border-radius:5px;
-	width:50%;
-	color:white;
-	padding-left:auto;
-	padding-right:auto;
-}
-
-form#loginForm input {
-	border-radius:5px;
-	font-size:15px;
-	font-style:bold;
-	padding-left:auto;
-	padding-right:auto;
-}
-
