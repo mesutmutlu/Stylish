@@ -73,3 +73,7 @@ h1 {
     text-align:center;
 	text-transform:none;
 }
+
+div.navbar>li {
+	width:25%
+};
