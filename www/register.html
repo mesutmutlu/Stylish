@@ -40,31 +40,42 @@
         <title>Have an account Stylish</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Stylish</h1>
-				<div class="registerForm">
-					<form id="registerForm">
-						<div>
-							<input type="text" name="username" id="username" value="" placeholder="Preferred Username" />
-						</div>
-						<div>
-							<input type="email" name="email" id="email" value="" placeholder="Preferred Email" />
-						</div>
-						<div>
-							<input type="password" name="password" id="password" value="" placeholder="Password Choosen" />
-						</div>
-						<div>
-							<button type="button" name="register" id="register" onclick="alert('controls + registration')"> Register </button>
-						</div>					
-					</form>		
-				</div>
-				<div>
-					<a href="./signin.html">
-						I have an account
-					</a>
-				</div>
-				
-        </div>
+		<div class="app">
+            <div data-role="page">
+				<div data-role="header">
+					<a href="#page-index" data-icon="home" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+					<h1>Register</h1>
+				</div><!-- /header -->
+		 
+				<div data-role="content">
+					<div class="registerForm">
+						<form id="registerForm">
+							<div>
+								<input type="text" name="username" id="username" value="" placeholder="Preferred Username" />
+							</div>
+							<div>
+								<input type="email" name="email" id="email" value="" placeholder="Preferred Email" />
+							</div>
+							<div>
+								<input type="password" name="password" id="password" value="" placeholder="Password Choosen" />
+							</div>
+							<div>
+								<button type="button" name="register" id="register" onclick="alert('controls + registration')"> Register </button>
+							</div>					
+						</form>		
+					</div>
+					<div>
+						<a href="./signin.html">
+							I have an account
+						</a>
+					</div>
+				</div><!-- /content -->
+		 
+				<div data-role="footer">
+			
+				</div><!-- /footer -->
+			</div><!-- /page -->
+		</div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

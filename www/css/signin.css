@@ -25,11 +25,11 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
    /* background-color:#E4E4E4;*/
-    background-image:linear-gradient(360deg, orange, violet, yellow);
+    /*background-image:linear-gradient(360deg, orange, violet, yellow);
     background-image:-webkit-linear-gradient(360deg, red, orange, yellow, green, blue, violet);	
     background-image:-ms-linear-gradient(360deg, orange, violet, yellow);
     background-image:-webkit-gradient(360deg, color-stop(orange), color-stop(violet), color-stop(yellow));
-    background-attachment:fixed;
+    background-attachment:fixed;*/
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
@@ -42,7 +42,7 @@ body {
 /* Portrait layout (default) */
 .app {
     /*background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
-    position:absolute;             /* position in the center of the screen */
+    /*position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
     /*height:50px;                   /* text area height */
