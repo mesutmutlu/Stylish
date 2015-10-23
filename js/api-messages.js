@@ -1,0 +1,13 @@
+var Stylish = Stylish || {};
+Stylish.ApiMessages = Stylish.ApiMessages || {};
+Stylish.ApiMessages.EMAIL_NOT_FOUND = 0;
+Stylish.ApiMessages.INVALID_PWD = 1;
+Stylish.ApiMessages.DB_ERROR = 2;
+Stylish.ApiMessages.NOT_FOUND = 3;
+Stylish.ApiMessages.EMAIL_ALREADY_EXISTS = 4;
+Stylish.ApiMessages.COULD_NOT_CREATE_USER = 5;
+Stylish.ApiMessages.PASSWORD_RESET_EXPIRED = 6;
+Stylish.ApiMessages.PASSWORD_RESET_HASH_MISMATCH = 7;
+Stylish.ApiMessages.PASSWORD_RESET_EMAIL_MISMATCH = 8;
+Stylish.ApiMessages.COULD_NOT_RESET_PASSWORD = 9;
+Stylish.ApiMessages.PASSWORD_CONFIRM_MISMATCH = 10;
