@@ -71,12 +71,12 @@ AccountController.prototype.logon = function(email, password, callback) {
 };
 /*end of logon method*/
 
-/*logon method*/
+/*log off method*/
 AccountController.prototype.logoff = function () {
     if (this.session.userProfileModel) delete this.session.userProfileModel;
     return;
 };
-/*end of logon method*/
+/*end of log off method*/
 
 /*register method*/
 AccountController.prototype.register = function (newUser, callback) {

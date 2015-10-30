@@ -24,3 +24,19 @@ h3.mc-text-danger  {
 .mc-top-margin-1-5 {
     margin-top:1.5em;
 }
+
+.bi-invalid-input {
+    background-color:#fffacd!important;
+}
+
+.bi-invisible {
+    display:none;
+}
+
+.bi-ctn-err {
+    background-color:#ffe1cd;
+    padding:0 .5em;
+    margin-bottom:.5em;
+    border: 1px solid #e9cfbd;
+    border-radius:3px 3px;
+}
